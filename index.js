@@ -1,3 +1,6 @@
-const { saySomething } = require("./dist/saySomething");
+const http = require("http");
+const {server} = require("./dist");
 
-saySomething();
+server.listen(3001, () => {
+  console.log("!!!");
+})
