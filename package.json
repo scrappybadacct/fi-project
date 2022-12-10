@@ -23,6 +23,6 @@
     "typescript": "^3.6.0-dev.20190709"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
